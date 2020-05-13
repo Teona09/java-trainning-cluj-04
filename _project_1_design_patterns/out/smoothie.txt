@@ -1,0 +1,8 @@
+Smoothie order -> Fruit: Banana; Something green: Spinach; Liquid base: Water; Sweetener: Honey; Price: 17 | Processed by _dan_ at 14-05-2020 01:04
+Smoothie order -> Fruit: Banana; Something green: Avocado; Liquid base: Milk; Seeds: Hemp; Price: 20 | Processed by _dan_ at 14-05-2020 01:05
+
+---
+Smoothie order -> Fruit: Berries; Something green: Cucumber; Liquid base: Water; Price: 15 | Processed by _ana_ at 14-05-2020 01:06
+Smoothie order -> Fruit: Kiwi; Something green: Cucumber; Liquid base: Water; Seeds: Flax; Sweetener: Honey; Price: 22 | Processed by _ana_ at 14-05-2020 01:06
+
+---
