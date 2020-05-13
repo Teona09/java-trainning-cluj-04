@@ -16,11 +16,11 @@ public class Service {
     }
 
     public void add(String order){
-        LocalDateTime dateTime=LocalDateTime.now();
+        LocalDateTime dateTime=LocalDateTime.now(); //we use date&time to remember of our orders
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
         String orderTime = dateTime.format(formatter);
         String fullOrder ="Smoothie order -> "+ order+" | Processed by _"+
-                currentUser.getUsername()+ "_ at " + orderTime + "\n";
+                currentUser.getUsername()+ "_ at " + orderTime;
         System.out.println(fullOrder);
         orders.addOrder(fullOrder);
     }
@@ -37,6 +37,8 @@ public class Service {
         }
         else
             throw new Exception("invalid username and/or password");
+        //Logger user2 =Logger.getInstance();
+        //System.out.println(user2.getUsername()); // it will print parameter name
     }
 
     public void setIsLoggedIn(boolean value){

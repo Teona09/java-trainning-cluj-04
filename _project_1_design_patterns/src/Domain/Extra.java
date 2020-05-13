@@ -1,5 +1,6 @@
 package Domain;
 
+//we use decorator
 public abstract class Extra extends Smoothie {
     protected Smoothie smoothie;
 

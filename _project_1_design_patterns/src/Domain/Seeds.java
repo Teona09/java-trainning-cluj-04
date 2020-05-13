@@ -1,5 +1,6 @@
 package Domain;
 
+//we use decorator
 public class Seeds extends Extra {
     protected String seeds;
 

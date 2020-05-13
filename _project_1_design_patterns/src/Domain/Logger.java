@@ -1,5 +1,5 @@
 package Domain;
-
+//we use singleton
 public class Logger {
     private static Logger instance=new Logger();
     private Logger(){

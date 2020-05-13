@@ -1,5 +1,6 @@
 package Domain;
 
+//we use decorator
 public class Sweetener extends Extra {
     protected String sweetener;
 

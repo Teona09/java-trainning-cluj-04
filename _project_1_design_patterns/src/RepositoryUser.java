@@ -5,10 +5,13 @@ import java.util.Map;
 import java.util.Set;
 
 public class RepositoryUser {
-    private ArrayList<Pair<String,String>> users;
+    private final ArrayList<Pair<String,String>> users;
 
     public RepositoryUser(){
         users = new ArrayList<Pair<String,String>>();
+
+        // normaly we would read the users from a file
+        // and repo would do more
 
         Pair<String, String> pair1 = new Pair<>("user","user");
         Pair<String, String> pair2 = new Pair<>("ana","0000");

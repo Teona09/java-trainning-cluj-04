@@ -1,5 +1,6 @@
 package Domain;
 
+//we use decorator
 public abstract class Smoothie {
     private String ingredients;
 
