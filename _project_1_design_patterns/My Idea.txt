@@ -1,0 +1,19 @@
+Project 1 - Design Patterns
+
+-----Happy Smoothie-----
+Operatorii localului folosesc o aplicatie pentru a gestiona comenzile efectuate.
+Aplicatia are urmatoarele functionalizati:
+1.Login (userul si parola trebuie sa se afle printre cele salvate in aplicatie)
+2.Operare (dupa autentificare cu succes)
+-->Adaugare Smoothie; unei obiect de tip smoothie(fruit,green,liquid) i se poate adauga seeds si/sau sweetener
+-->Afisarea comenzilor procesate de utilizatorul curent
+3.Logout
+
+Precizari:
+~~~la un moment dat, o singura persoana foloseste aplicatia (pentru clasa logger se foloseste singleton) 
+~~~la pornirea aplicatiei se afiseaza utilizatorii salvati in memorie
+~~~EXTRA: 
+	-->toate comenzile vor fi stocate intr-un fisier, indiferent de user-ul curent
+	-->se face doar scriere in fisier, nu si citire
+	-->fisierul se afla in directorul out
+
