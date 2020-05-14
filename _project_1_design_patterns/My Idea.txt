@@ -10,10 +10,11 @@ Aplicatia are urmatoarele functionalizati:
 3.Logout
 
 Precizari:
-~~~la un moment dat, o singura persoana foloseste aplicatia (pentru clasa logger se foloseste singleton) 
+~~~la un moment dat, o singura persoana foloseste aplicatia
 ~~~la pornirea aplicatiei se afiseaza utilizatorii salvati in memorie
 ~~~EXTRA: 
 	-->toate comenzile vor fi stocate intr-un fisier, indiferent de user-ul curent
 	-->se face doar scriere in fisier, nu si citire
 	-->fisierul se afla in directorul out
+~~~ca design patterns am folosit singleton si decorator
 
