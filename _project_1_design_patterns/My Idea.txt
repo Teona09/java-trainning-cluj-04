@@ -5,7 +5,7 @@ Operatorii localului folosesc o aplicatie pentru a gestiona comenzile efectuate.
 Aplicatia are urmatoarele functionalizati:
 1.Login (userul si parola trebuie sa se afle printre cele salvate in aplicatie)
 2.Operare (dupa autentificare cu succes)
--->Adaugare Smoothie; unei obiect de tip smoothie(fruit,green,liquid) i se poate adauga seeds si/sau sweetener
+-->Adaugare Smoothie; unui obiect de tip smoothie(fruit,green,liquid) i se poate adauga seeds si/sau sweetener
 -->Afisarea comenzilor procesate de utilizatorul curent
 3.Logout
 
